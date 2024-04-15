@@ -8,7 +8,7 @@ Para aplicar un archivo de Deployment en tu repositorio usando `kubectl`, sigue 
    ```bash
     git clone https://github.com/XeniaP/V1_Container_Security_Demo.git
     cd V1_Container_Security_Demo/miner
-    kubectl apply -f deployment.yaml
+    kubectl apply -f deployment.yml
 
 ## Cómo Colaborar
 
